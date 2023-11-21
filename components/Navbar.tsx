@@ -24,6 +24,7 @@ const Navbar = () => {
         width={22}
         height={22}
         className="inline-block cursor-pointer lg:hidden"
+        
       />
 
     </nav>

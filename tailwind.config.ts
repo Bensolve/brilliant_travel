@@ -28,9 +28,12 @@ module.exports = {
         yellow: {
           50: '#FEC601',
         },
+        violet: {
+          50: '#A78BFA',
+        }
       },
       backgroundImage: {
-        'bg-img-1': "url('/img-1.png')",
+        'bg-img-1': "url('/hero.jpg')",
         'bg-img-2': "url('/img-2.png')",
         'feature-bg': "url('/feature-bg.png')",
         pattern: "url('/pattern.png')",
