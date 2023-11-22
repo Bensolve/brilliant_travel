@@ -7,7 +7,7 @@ const Navbar = () => {
     padding-container relative z-30 py-5
     ">
       <Link href="/">
-        <Image src="/logo.svg" alt="logo" width={174} height={119} />
+        <Image src="/logo.svg" alt="logo" width={154} height={109} />
       </Link>
 
       <ul className="hidden h-full gap-12 lg:flex ">
