@@ -159,3 +159,9 @@ body {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
+.overlay {
+  background: rgba(0, 0, 0, .1); /* Adjust the alpha value to control the overlay's transparency */
+ 
+  border-radius: 10px; /* Optional: Add some border-radius for a rounded look */
+}

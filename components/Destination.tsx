@@ -8,11 +8,13 @@ interface DestinationProps {
 
 const DestinationSite = ({ backgroundImage, title }: DestinationProps) => {
   return (
-    <div className={`relative h-full w-full min-w-[200px] ${backgroundImage} bg-cover bg-no-repeat lg:rounded-5xl 2xl:rounded-5xl`}>
+    <div className={`relative h-full w-full min-w-[200px] ${backgroundImage}  bg-cover bg-no-repeat rounded-lg lg:rounded-5xl 2xl:rounded-5xl`}>
       <div className="absolute bottom-0 left-0 right-0 p-6 lg:px-20 lg:py-10 ">
         <div className="flex flex-col gap-4">
           <div className="flex flex-col gap-1">
-            <h4 className="bold-18 text-white text-center">{title}</h4>
+          <div className="">
+              <h4 className="bold-18 text-white text-center">{title}</h4>
+            </div>
           </div>
         </div>
       </div>

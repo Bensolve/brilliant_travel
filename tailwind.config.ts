@@ -33,8 +33,8 @@ module.exports = {
         }
       },
       backgroundImage: {
-        'bg-img-1': "url('/Dubai.jpg')",
-        'bg-img-2': "url('/Canada.jpg')",
+        'bg-img-1': "url('/dubai.jpg')",
+        'bg-img-2': "url('/canada.jpg')",
         'bg-img-3': "url('/southafrica.jpg')",
         'bg-img-4': "url('/usa.jpg')",
         'feature-bg': "url('/feature-bg.png')",
