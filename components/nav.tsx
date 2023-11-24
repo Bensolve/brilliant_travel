@@ -18,25 +18,14 @@ const Navbar = () => {
   };
 
   return (
-    <div>
-
-   
-    <nav className="navbar flex  justify-between max-container
+    <nav className="navbar flexBetween max-container
     padding-container relative z-30 py-5
     ">
       <Link href="/">
         <Image src="/logo.svg" alt="logo" width={154} height={109} />
       </Link>
 
-      <ul className="hidden h-full gap-12 lg:flex ">
-        {NAV_LINKS.map((link) => (
-          <Link href={link.href} key={link.key} className="regular-16 text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold ">
-            {link.label}
-          </Link>
-        ))}
-      </ul>
-
-      
+     <div className="lg:hidden">
 
       {isMenuOpen ? (
         <Image
@@ -44,7 +33,7 @@ const Navbar = () => {
           alt="close"
           width={22}
           height={22}
-          className="inline-block cursor-pointer lg:hidden"
+          className="inline-block cursor-pointer "
           onClick={closeMenu}
         />
       ) : (
@@ -54,27 +43,35 @@ const Navbar = () => {
         alt="menu"
         width={22}
         height={22}
-        className="inline-block cursor-pointer lg:hidden"
+        className="inline-block cursor-pointer "
         onClick={toggleMenu}
       />
-
+    
       )}
-     
-
-    </nav>
-    <nav>
-    {isMenuOpen && (
-        <ul className="flex flex-col lg:hidden items-center border-b pl-3 ">
+      </div>
+      {isMenuOpen && (
+        <ul className="flex flex-col md:hidden border-b pl-3">
           {NAV_LINKS.map((link) => (
-            <Link href={link.href} key={link.key} className="flex cursor-pointer items-center gap-10 rounded-sm px-2 py-1 mt-2 capitalize decoration-indigo-500 decoration-2 underline-offset-1 transition     duration-300 ease-in-out"
+            <Link href={link.href} key={link.key} 
+            className="flex cursor-pointer items-center gap-1
+             rounded-sm px-2 py-1 mt-2 capitalize
+              decoration-indigo-500 decoration-2 underline-offset-1
+               transition     duration-300 ease-in-out"
             >
               {link.label}
             </Link>
           ))}
         </ul>
       )}
+
+<div className="hidden h-full gap-12 lg:flex ">
+        {NAV_LINKS.map((link) => (
+          <Link href={link.href} key={link.key} className="regular-16 text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold ">
+            {link.label}
+          </Link>
+        ))}
+      </div>
     </nav>
-    </div>
   )
 }
 
