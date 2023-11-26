@@ -29,7 +29,7 @@ module.exports = {
           50: '#FEC601',
         },
         violet: {
-          50: '#A78BFA',
+          50: '#4E0D7D',
         }
       },
       backgroundImage: {

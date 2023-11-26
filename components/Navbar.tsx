@@ -21,16 +21,16 @@ const Navbar = () => {
     <div>
 
    
-    <nav className="navbar flex  justify-between max-container
-    padding-container relative z-30 py-5
+    <nav className="navbar flex  justify-between items-center max-container
+    padding-container relative z-30 py-2
     ">
       <Link href="/">
-        <Image src="/logo.svg" alt="logo" width={154} height={109} />
+        <Image src="/logo.svg" alt="logo"width={74} height={29} />
       </Link>
 
       <ul className="hidden h-full gap-12 lg:flex ">
         {NAV_LINKS.map((link) => (
-          <Link href={link.href} key={link.key} className="regular-16 text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold ">
+          <Link href={link.href} key={link.key} className="regular-18 text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold ">
             {link.label}
           </Link>
         ))}
@@ -43,7 +43,7 @@ const Navbar = () => {
           src="close.svg"
           alt="close"
           width={22}
-          height={22}
+          height={32}
           className="inline-block cursor-pointer lg:hidden"
           onClick={closeMenu}
         />
@@ -53,7 +53,7 @@ const Navbar = () => {
         src="menu.svg"
         alt="menu"
         width={22}
-        height={22}
+        height={32}
         className="inline-block cursor-pointer lg:hidden"
         onClick={toggleMenu}
       />
