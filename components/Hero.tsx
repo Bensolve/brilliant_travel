@@ -36,7 +36,7 @@ const Hero = () => {
         <div className="flex flex-col w-full gap-3 sm:flex-row">
           <Button 
             type="button" 
-            title="Call  020-233-2234" 
+            title="Call  053-122-4981" 
             variant="btn_violet" 
           />
         </div>
