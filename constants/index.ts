@@ -1,8 +1,8 @@
 // NAVIGATION
 export const NAV_LINKS = [
     { href: '/', key: 'home', label: 'Home' },
-    { href: '/', key: 'services', label: 'Services' },
-    { href: '/', key: 'pricing ', label: 'Pricing ' },
+    { href: '/Tour', key: 'Tour', label: 'Tour' },
+    { href: '/Price', key: 'pricing ', label: 'Pricing ' },
     { href: '/', key: 'contact_us', label: 'Contact Us' },
   ];
   
@@ -37,7 +37,7 @@ export const NAV_LINKS = [
     links: [
       '/facebook.svg',
       '/instagram.svg',
-      '/twitter.svg',
+      '/x-twitter.svg',
     
     ],
   };

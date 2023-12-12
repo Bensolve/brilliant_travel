@@ -25,6 +25,11 @@ const Destination = () => {
   return (
     <section className="2xl:max-container padding-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20">
       <div className="hide-scrollbar flex h-[240px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[300px] xl:h-[400px]">
+      <DestinationSite
+          backgroundImage="bg-bg-img-0"
+          title="Ghana"
+        />
+       
         <DestinationSite
           backgroundImage="bg-bg-img-1"
           title="Dubai"

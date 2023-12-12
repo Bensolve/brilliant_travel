@@ -14,10 +14,16 @@ body {
   font-family: Inter;
 }
 
+
+
 @layer utilities {
-  .btn_white { 
-    @apply  border-white bg-white px-8 py-3 text-green-50
+  .bg_white_smoke {
+      @apply bg-white_smoke-70
   }
+  .btn_white { 
+    @apply  border-white bg-white  text-black
+  }
+
   .btn_white_text  { 
     @apply  border-white bg-white px-8 py-3 text-gray-90
   }
@@ -165,3 +171,8 @@ body {
  
   border-radius: 10px; /* Optional: Add some border-radius for a rounded look */
 }
+
+
+
+
+
