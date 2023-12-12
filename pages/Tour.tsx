@@ -7,7 +7,8 @@ const Tour = () => {
 
 
   return (
-      <section className='hidden lg:block'>
+    // hidden lg:block
+      <section className=''>
         <ImageSlider />
         
       </section>
