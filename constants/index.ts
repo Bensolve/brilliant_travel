@@ -1,11 +1,15 @@
 // NAVIGATION
 export const NAV_LINKS = [
-    { href: '/', key: 'home', label: 'Home' },
-    { href: '/Tour', key: 'Tour', label: 'Tour' },
-    { href: '/Price', key: 'pricing ', label: 'Pricing ' },
-    { href: '/', key: 'contact_us', label: 'Contact Us' },
-  ];
-  
+  { href: '/', key: 'home', label: 'Home' },
+  { 
+      href: '/Tour', 
+      key: 'Tour', 
+      label: 'Tour'
+    
+  },
+  { href: '/Price', key: 'pricing', label: 'Pricing ' },
+  { href: '/', key: 'contact_us', label: 'Contact Us' },
+];
  
 
   // FOOTER SECTION

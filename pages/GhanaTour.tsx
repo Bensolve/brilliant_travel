@@ -1,12 +1,11 @@
 // MyComponent.js
 import React from 'react';
 import './module.css';
-import './mobileModule.css'
 import { ChevronRight, ChevronLeft } from 'lucide-react';
 import './scripts.js';
-import Slide from './Slide'; // Import your Slide component
+import Slide from '@/components/Slide';
 
-const SlideCard = () => {
+const Ghanatour = () => {
   const slidesData = [
     {
       imageUrl: 'ghana1.jpg',
@@ -41,18 +40,18 @@ const SlideCard = () => {
   ];
 
   return (
-    <section className=" my-10">
-      <div className="con ">
+    <section className=" ">
+      <div className="container ">
         <div id="slide" className=''>
           {slidesData.map((slide, index) => (
             <Slide key={index} {...slide} />
           ))}
         </div>
         <div className="buttons">
-          <button id="prev" className="text-white icon-left icon-button">
+          <button id="prev" className="text-white icon-button">
             <ChevronLeft className="" />
           </button>
-          <button id="next" className="text-white icon-right icon-button">
+          <button id="next" className="text-white icon-button">
             <ChevronRight />
           </button>
         </div>
@@ -61,4 +60,4 @@ const SlideCard = () => {
   );
 };
 
-export default SlideCard;
+export default Ghanatour;

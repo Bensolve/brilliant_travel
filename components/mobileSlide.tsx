@@ -8,12 +8,15 @@ interface SlideProps {
 
 }
 
-const Slide: React.FC<SlideProps> = ({ imageUrl, name, description }) => {
+const MobileSlide: React.FC<SlideProps> = ({ imageUrl, name, description }) => {
 
 
 
   return (
-    <div className="item" style={{ backgroundImage: `url(${imageUrl})` }}>
+    <div className="item">
+        <div>
+            {imageUrl}
+        </div>
       <div className="content">
         <div className="name">{name}</div>
         <div className="my-5 regular-16">{description}</div>
@@ -23,4 +26,4 @@ const Slide: React.FC<SlideProps> = ({ imageUrl, name, description }) => {
   );
 };
 
-export default Slide;
+export default MobileSlide;
