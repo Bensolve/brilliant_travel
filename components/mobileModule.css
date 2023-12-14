@@ -133,12 +133,7 @@
          cursor: pointer;
          transition: background-color 0.3s, color 0.3s;
        }
-       .icon-left {
-        
-       }
-       .icon-right {
-        
-       }
+    
        
        .icon-button:hover {
          background-color: #fff;
