@@ -1,8 +1,8 @@
 // MyComponent.js
 import React from 'react';
-import './module.css';
+import '@/components/mobileSlide.jsx';
 import { ChevronRight, ChevronLeft } from 'lucide-react';
-import './scripts.js';
+import '.@/components/scripts.js';
 import Slide from '@/components/Slide';
 
 const Ghanatour = () => {
