@@ -17,6 +17,10 @@ body {
 
 
 @layer utilities {
+
+  .text-shadow-custom {
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+  }
   .bg_white_smoke {
       @apply bg-white_smoke-70
   }

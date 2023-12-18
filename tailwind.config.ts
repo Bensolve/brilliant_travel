@@ -43,7 +43,7 @@ module.exports = {
         'bg-img-2': "url('/canada.jpg')",
         'bg-img-3': "url('/southafrica.jpg')",
         'bg-img-4': "url('/usa.jpg')",
-        'bg-img-0': "url('/ghana.png')",
+        'bg-img-0': "url('/ghana.jpg')",
         'feature-bg': "url('/feature-bg.png')",
         pattern: "url('/pattern.png')",
         'pattern-2': "url('/pattern-bg.png')",
@@ -59,10 +59,12 @@ module.exports = {
       borderRadius: {
         '5xl': '40px',
         'circle': '50%',
+        'smaller':'20px'
       },
       zIndex: {
         '1': '1',
         '2': '2',
+        '100': '100',
         '11111': '11111',
         // Add more as needed
       },

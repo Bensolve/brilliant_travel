@@ -9,13 +9,13 @@ const Tour = () => {
 
   return (
     
-      // <section className='hidden lg:block'>
-      //   {/* <ImageSlider /> */}
+      <section className=''>
+        <ImageSlider />
         
-      // </section>
-    <section>
-      <SlideCard/>
-    </section>
+      </section>
+    // <section>
+    //   <SlideCard/>
+    // </section>
 
 
 

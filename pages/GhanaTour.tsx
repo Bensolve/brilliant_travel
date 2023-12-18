@@ -11,34 +11,29 @@ const  GhanaTour = () => {
   const slidesData = [
     {
       imageUrl: 'ghana1.jpg',
-      name: 'Kakum National Park - Ghana',
+      name: '',
       description: '',
     },
     {
       imageUrl: 'ghana2.jpg',
-      name: 'Mole National Park - Ghana',
+      name: '',
       description: '',
     },
     {
-      imageUrl: '3.jpg',
-      name: 'LUNDEV',
+      imageUrl: 'ghana3.jpg',
+      name: '',
       description: '',
     },
     {
-      imageUrl: '4.jpg',
-      name: 'LUNDEV',
+      imageUrl: 'ghana4.jpg',
+      name: '',
       description: '',
     },
     {
-      imageUrl: '5.jpg',
-      name: 'LUNDEV',
+      imageUrl: 'ghana5.jpg',
+      name: '',
       description: '',
-    },
-    {
-      imageUrl: 'back3.jpg',
-      name: 'Hello',
-      description: '',
-    },
+    }
   ];
 
   return (
@@ -49,7 +44,7 @@ const  GhanaTour = () => {
             <Slide key={index} {...slide} />
           ))}
         </div>
-        <div className="buttons">
+        <div className="buttons flex justify-center gap-4">
           <button id="prev" className="text-white icon-left icon-button">
             <ChevronLeft className="" />
           </button>
@@ -57,6 +52,7 @@ const  GhanaTour = () => {
             <ChevronRight />
           </button>
         </div>
+        
       </div>
     </section>
   );
@@ -66,7 +62,6 @@ const  GhanaTour = () => {
 export default GhanaTour
 
 
-// MyComponent.js
 
 
 
