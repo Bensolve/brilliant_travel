@@ -39,6 +39,7 @@ const Hero = () => {
             type="button" 
             title="Call  053-122-4981" 
             variant="btn_violet" 
+            link="whatsapp://send?phone=0531224981"
           />
         </div>
       </div>
