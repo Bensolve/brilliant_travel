@@ -29,7 +29,13 @@ const DestinationSite = ({ backgroundImage, title, description, buttonLink }: De
 const Destination = () => {
   return (
     <section className="2xl:max-container padding-container relative flex flex-col py-10 lg:mb-10 lg:py-20 xl:mb-20">
-      <Header />
+      
+    <Header 
+        prefixText="Explore Exciting" 
+        headerText="Amazing Places" 
+        descriptionText="Discover the most amazing places around the world." 
+        />
+
       <div className="hide-scrollbar flex h-[240px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[300px] xl:h-[400px]">
         <DestinationSite
           backgroundImage="bg-bg-img-0"

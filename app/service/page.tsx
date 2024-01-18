@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import Card from '@/components/Card';
+import Header from '@/components/Header';
 
 interface ServiceProps {}
 
@@ -71,6 +72,12 @@ const Service: React.FC<ServiceProps> = () => {
 
   return (
     <div className="2xl:max-container padding-container">
+      
+      <Header 
+        prefixText="Our" 
+        headerText="Services" 
+        descriptionText="What we provide" 
+        />
       <div className="flex justify-end mt-4 fixed right-0">
         <button onClick={handleCurrencyChange} className="text-white btn_violet px-2 py-1 rounded">
           {currentCurrency === 'GHS' ? 'USD' : 'GHS'}

@@ -18,11 +18,11 @@ const Navbar = () => {
   };
 
   return (
-    <div>
+    <div className="bg-white">
 
    
     <nav className="navbar flex  justify-between items-center max-container
-    padding-container relative z-30 py-2
+    padding-container relative z-30 py-2 
     ">
       <Link href="/">
         <Image src="/logo.svg" alt="logo"width={74} height={29} />
