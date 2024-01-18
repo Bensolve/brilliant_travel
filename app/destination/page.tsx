@@ -1,9 +1,12 @@
 import React from 'react'
+import Destination from '@/components/Destination';
 
-const DashboardPage = () => {
+const DestinationPage = () => {
   return (
-    <div>DashboardPage</div>
+    <div>
+      <Destination/>
+    </div>
   )
 }
 
-export default DashboardPage
+export default DestinationPage
