@@ -41,32 +41,33 @@ const Destination = () => {
           backgroundImage="bg-bg-img-0"
           title="Ghana"
           description=""
-          buttonLink="/GhanaTour"
+          buttonLink="/destination/ghana"
+         
         />
 
         <DestinationSite
           backgroundImage="bg-bg-img-1"
           title="Dubai"
           description="" 
-          buttonLink="/DubaiTour"
+          buttonLink="/destination/dubai"
         />
         <DestinationSite
           backgroundImage="bg-bg-img-2"
           title="Canada"
           description=""
-          buttonLink="/CanadaTour"
+          buttonLink="/destination/canada"
         />
         <DestinationSite
           backgroundImage="bg-bg-img-3"
           title="South Africa"
           description=""
-          buttonLink="/SouthAfricaTour"
+          buttonLink="/destination/south_africa"
         />
         <DestinationSite
           backgroundImage="bg-bg-img-4"
           title="USA"
           description=""
-          buttonLink="/UsaTour"
+          buttonLink="/destination/usa"
         />
       </div>
     </section>

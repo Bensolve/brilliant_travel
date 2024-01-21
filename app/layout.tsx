@@ -25,7 +25,7 @@ export default function RootLayout({
       </head>
       <body>
         <Navbar/>
-        <main className="relative overflow-hidden">
+        <main >
           {children}
           <Analytics />
           <SpeedInsights />
@@ -35,3 +35,5 @@ export default function RootLayout({
     </html>
   )
 }
+
+// relative overflow-hidden for main tag class
