@@ -45,13 +45,10 @@ const Hero = () => {
             <Image
               src="/hero.jpg"
               alt="background image"
-              layout="responsive"
-              width={750}
-              height={434}
+              fill
               className='rounded-lg lg:rounded-5xl 2xl:rounded-5xl w-full'
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
-
           </div>
         </div>
       </div>
