@@ -15,7 +15,7 @@ const Footer = () => {
           <div className='flex flex-wrap gap-5 sm:justify-between md:flex-1'>
             {FOOTER_LINKS.map((columns) => (
               <FooterColumn key={columns.id} title={columns.title}>
-                <ul className="regular-14 flex flex-col gap-4 text-gray-30">
+                <ul className="regular-14 flex flex-col gap-4 text-gray-800">
                   {columns.links.map((link, index) => (
                     <Link href="/" key={index}>
                       {link}
@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
 
         <div className="border bg-gray-20" />
-        <p className="regular-14 w-full text-center text-gray-30">2023 Brilliant Travel ANd Tour | All rights reserved</p>
+        <p className="regular-14 w-full text-center text-gray-800">2023 Brilliant Travel ANd Tour | All rights reserved</p>
       </div>
     </footer>
   )

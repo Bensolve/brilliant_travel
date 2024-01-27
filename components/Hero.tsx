@@ -11,7 +11,7 @@ const Hero = () => {
       <div className="relative z-20 flex flex-1 flex-col xl:w-1/2">
       
         <h1 className="bold-52 lg:bold-88">Brilliant Travel And Tour</h1>
-        <p className="regular-16 mt-6 text-gray-30 xl:max-w-[520px]">
+        <p className="regular-16 mt-6 text-gray-800 xl:max-w-[520px]">
           Travel With Ease!!
         </p>
 
