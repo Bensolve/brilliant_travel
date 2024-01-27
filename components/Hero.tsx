@@ -47,7 +47,7 @@ const Hero = () => {
               alt="background image"
               fill={true}
               className='rounded-lg lg:rounded-5xl 2xl:rounded-5xl'
-              sizes="(max-width: 768px) 100vw, 33vw"	
+              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
 
           </div>
