@@ -9,6 +9,7 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://brilliant-travel-and-tour.vercel.app/"),
   title: 'Brilliant Travel And Tour',
   description: 'Travel With Ease!!',
 }
