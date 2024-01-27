@@ -22,7 +22,7 @@ const DestinationSite = ({ backgroundImage, title, description, buttonLink }: De
     <div className={`relative h-full w-full min-w-[200px] group ${backgroundImage} bg-cover bg-no-repeat rounded-lg lg:rounded-5xl 2xl:rounded-5xl overflow-hidden`}>
        <div className="p-6 lg:px-20 lg:py-16 absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70">
           <div className="absolute inset-0 flex translate-y-[50%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:translate-y-0">
-            <h4 className=" regular-24 font-bold text-white mb-4">{title}</h4>
+            <h2 className=" regular-24 font-bold text-white mb-4">{title}</h2>
             <p className="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">{description}</p>
             <Button title="View Tours" type="button" variant="btn_violet"  onClick={handleButtonClick} />
           </div>
