@@ -8,12 +8,16 @@ import './globals.css'
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
+
+{/* <!-- Meta Tags Generated via https://www.opengraph.xyz --></meta> */}
+
 export const metadata: Metadata = {
   metadataBase: new URL ("https://brilliant-travel-and-tour.vercel.app/"),
   title: 'Brilliant Travel And Tour',
   description: 'Travel With Ease!!',
   other: {
    "og:url": "https://brilliant-travel-and-tour.vercel.app/",
+   "twitter:image": 'https://ibb.co/YcHh5Hp/homepage-thumbnail.jpg',
     "og:image": 'https://ibb.co/YcHh5Hp/homepage-thumbnail.jpg',
     "og:type": "website",
   }
