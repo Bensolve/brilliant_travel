@@ -16,10 +16,15 @@ export const metadata: Metadata = {
   title: 'Brilliant Travel And Tour',
   description: 'Travel With Ease!!',
   other: {
-   "og:url": "https://brilliant-travel-and-tour.vercel.app/",
-   "twitter:image": 'https://ibb.co/YcHh5Hp/homepage-thumbnail.jpg',
-    "og:image": 'https://ibb.co/YcHh5Hp/homepage-thumbnail.jpg',
+    "og:url" :"https://brilliant-travel-and-tour.vercel.app/",
+    "twitter:image":"https://opengraph.b-cdn.net/production/documents/93dbc968-02dc-4346-83b1-e50d2a85ef31.jpg?token=-n-zxvb0XBkghBf98c01BKOILknhpDld-Xu8tGebgLU&height=1000&width=1000&expires=33243251843",
+    "twitter:card" :"summary_large_image",
     "og:type": "website",
+    "og:image" :"https://opengraph.b-cdn.net/production/documents/93dbc968-02dc-4346-83b1-e50d2a85ef31.jpg?token=FESX-7s8qBhSaEb7jbAZMyDWKFhpxAUpBETjSFHrxdU&height=1000&width=1000&expires=33243231646",
+
+
+
+  //  https://www.opengraph.xyz --></meta>
   }
 }
 export default function RootLayout({
