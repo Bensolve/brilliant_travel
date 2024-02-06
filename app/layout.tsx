@@ -9,9 +9,14 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://brilliant-travel-and-tour.vercel.app/"),
+  metadataBase: new URL ("https://brilliant-travel-and-tour.vercel.app/"),
   title: 'Brilliant Travel And Tour',
   description: 'Travel With Ease!!',
+  other: {
+   "og:url": "https://brilliant-travel-and-tour.vercel.app/",
+    "og:image": 'https://ibb.co/YcHh5Hp/homepage-thumbnail.jpg',
+    "og:type": "website",
+  }
 }
 export default function RootLayout({
   children,
@@ -23,6 +28,7 @@ export default function RootLayout({
        <head>
         <meta charSet="utf-8" />
         <meta name="google-site-verification" content="A5zxzFlJPm_GjdXlVEfZkZtFXXW9RE4lX7dmQXUU7w8" />
+        <meta http-equiv="Cache-Control" content="public, max-age=3600"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body>
