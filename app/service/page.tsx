@@ -49,7 +49,7 @@ const Service: React.FC<ServiceProps> = () => {
     {
       imageSrc: 'pass.jpg',
       title: 'Passport Express',
-      price: 1500, // Assuming the price is in GHS
+      price: 2500, // Assuming the price is in GHS
     },
     {
       imageSrc: 'BirthCert.jpg',
